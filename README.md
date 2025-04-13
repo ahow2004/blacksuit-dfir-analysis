@@ -73,7 +73,7 @@ From initial access to ransomware execution — notably longer dwell time than m
 - [YARA & Sigma Rules from DFIR](https://github.com/SigmaHQ/sigma)
 
 ---
-## 🧪 Simulation Overview
+## Simulation Overview
 
 This project showcases a hands-on simulation of techniques associated with a BlackSuit ransomware-style attack using Atomic Red Team. Each stage in the attack chain was safely executed on a Windows lab environment and is mapped to the corresponding MITRE ATT&CK techniques. The goal is to demonstrate detection, logging, and incident analysis workflows for common adversary behaviors.
 
