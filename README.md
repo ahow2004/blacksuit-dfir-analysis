@@ -88,7 +88,7 @@ The following categories of activity were emulated:
 
 This project is ideal for SOC analysts, blue teamers, or students preparing for cybersecurity certifications like CompTIA CySA+, Security+, or real-world threat detection scenarios.
 
-## 🧪 Simulated Attack Chain
+## Simulated Attack Chain
 
 | MITRE Tactic        | Technique ID | Technique Name                        | Description                          |
 |---------------------|--------------|--------------------------------------|--------------------------------------|
@@ -101,12 +101,12 @@ This project is ideal for SOC analysts, blue teamers, or students preparing for 
 
 ---
 
-## 🧩 Environment Details
+## Environment Details
 
-- 💻 Host OS: Windows 10 VM
-- 🧰 Logging Tool: Sysmon + Event Viewer
-- 📦 Atomic Red Team Path: `C:\AtomicRedTeam\atomics`
-- 🔐 AV/EDR: [Enabled/Disabled based on test]
-- 🔎 Review Method: Manual log correlation + screenshots
+- Host OS: Windows 10 VM
+- Logging Tool: Sysmon + Event Viewer
+- Atomic Red Team Path: `C:\AtomicRedTeam\atomics`
+- AV/EDR: [Enabled/Disabled based on test]
+- Review Method: Manual log correlation + screenshots
 
 ---
