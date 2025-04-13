@@ -72,3 +72,27 @@ From initial access to ransomware execution — notably longer dwell time than m
 - [MITRE ATT&CK](https://attack.mitre.org)
 - [YARA & Sigma Rules from DFIR](https://github.com/SigmaHQ/sigma)
 
+---
+
+## 🧪 Simulated Attack Chain
+
+| MITRE Tactic        | Technique ID | Technique Name                        | Description                          |
+|---------------------|--------------|--------------------------------------|--------------------------------------|
+| Discovery           | T1082        | System Information Discovery         | Simulates `systeminfo` for recon     |
+| Execution           | T1059.001    | PowerShell                           | Simulates PowerShell command exec    |
+| Credential Access   | T1003.001    | LSASS Memory Dump (Simulated)        | Simulates credential dumping         |
+| Persistence         | T1219        | Remote Access Software (AnyDesk)     | Simulates RAT installation           |
+| Defense Evasion     | T1112        | Registry Modification                | Simulates altering system settings   |
+| Impact              | T1486        | Data Encrypted for Impact            | Simulates fake ransomware encryption |
+
+---
+
+## 🧩 Environment Details
+
+- 💻 Host OS: Windows 10 VM
+- 🧰 Logging Tool: Sysmon + Event Viewer
+- 📦 Atomic Red Team Path: `C:\AtomicRedTeam\atomics`
+- 🔐 AV/EDR: [Enabled/Disabled based on test]
+- 🔎 Review Method: Manual log correlation + screenshots
+
+---
